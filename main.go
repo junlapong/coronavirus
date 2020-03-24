@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kennygrant/coronavirus/covid"
+	"github.com/junlapong/coronavirus/covid"
 	"golang.org/x/crypto/acme/autocert"
 )
 
-var development = false
+var development = true
 
 // Store our templates globally, don't touch it after server start
 var htmlTemplate *template.Template
